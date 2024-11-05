@@ -1,0 +1,47 @@
+.slidev-layout h1 {
+    color: #FF9770;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.slidev-layout h2 {
+    color: #A01A7D;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.slidev-layout h3 {
+    color: #0892A5;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.slidev-layout em,
+.slidev-layout strong {
+    color: #0892A5;
+}
+
+:not(pre) > code:before,
+:not(pre) > code:after {
+    content: '';
+    opacity: 0.50;
+}
+
+:not(pre) > code {
+    background-color: #8d8c8c;
+    padding: 1px 5px;
+    font-style: italic;
+    color: #ebf1eb;
+}
+
+pre > code {
+    font-size: 0.9rem;
+}
+
+.img-right + div {
+    background-size: contain !important;
+}
+
+.img-contain {
+    background-size: contain !important;
+}
